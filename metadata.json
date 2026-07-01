@@ -1,0 +1,6 @@
+{
+  "name": "Coconut Charcoal Landing Page",
+  "description": "A simple landing page for Premium Coconut Charcoal Briquettes with structured product specs, features, and quick contact options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
