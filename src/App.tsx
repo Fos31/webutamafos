@@ -153,7 +153,8 @@ export default function App() {
                 src="/src/assets/images/charcoal_logo_dark_bg_1781622907683.jpg" 
                 alt="FOS Logo" 
                 referrerPolicy="no-referrer"
-                className="w-10 h-10 object-contain mix-blend-screen transition-transform group-hover:scale-105"
+                // className="w-10 h-10 object-contain mix-blend-screen transition-transform group-hover:scale-105"
+                className="w-10 h-10 object-contain mix-blend-screen transition-transform group-hover:scale-53"
               />
               <span className="font-sans font-black tracking-tighter text-xl uppercase">
                 FOS<span className="text-amber-500"> AS ENERGY</span>
