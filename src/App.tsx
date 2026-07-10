@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import logo from './assets/images/charcoal_logo_dark_bg_1781622907683.jpg';
+import image from './assets/images/charcoal_product_showcase_fos_1781360804359.jpg';
 import { 
   Menu, 
   X, 
@@ -424,13 +425,13 @@ export default function App() {
                 <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-amber-500" />
                 
                 <img 
-                  src="/src/assets/images/charcoal_product_showcase_fos_1781360804359.jpg" 
+                  src={image}
                   alt="FOS Coconut Charcoal Briquettes Packaging and Glowing Hot Coals" 
                   referrerPolicy="no-referrer"
-                  className="w-full object-cover transition-transform duration-500 group-hover:scale-[1.02] filter brightness-105"
+                  className="w-full max-w-lg mx-auto h-auto object-contain lg:max-w-none lg:object-cover transition-transform duration-500 group-hover:scale-[1.02] brightness-105"
                 />
               </div>
-              <div className="mt-4 flex justify-between items-center text-xs font-mono text-white/40">
+              <div className="mt-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs font-mono text-white/40">
                 <span>[ FIG. 01 / PREMIUM RETAIL EDITION ]</span>
                 <span>AS ENERGY - INDONESIA</span>
               </div>

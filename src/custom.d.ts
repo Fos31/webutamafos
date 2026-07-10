@@ -9,3 +9,14 @@ declare module '*.svg' {
   export default src;
 }
 declare module '*.webp';
+
+declare module '*.jpg';
+declare module '*.jpeg';
+declare module '*.png';
+declare module '*.gif';
+declare module '*.svg' {
+  import * as React from 'react';
+  const src: string;
+  export default src;
+}
+declare module '*.webp';
