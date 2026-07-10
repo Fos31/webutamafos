@@ -932,7 +932,8 @@ export default function App() {
               <span className="block text-[9px] uppercase tracking-widest text-white/40 mb-3">FOS_COCO</span>
               <div className="flex items-center gap-2">
                 <img 
-                  src="/src/assets/images/charcoal_logo_dark_bg_1781622907683.jpg" 
+                  // src="/src/assets/images/charcoal_logo_dark_bg_1781622907683.jpg" 
+                  src={logo} 
                   alt="FOS Logo" 
                   referrerPolicy="no-referrer"
                   className="w-8 h-8 object-contain mix-blend-screen"
